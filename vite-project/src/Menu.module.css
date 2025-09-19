@@ -110,6 +110,22 @@ li button:hover {
   .hamburger {
     display: flex;
   }
+  .sidebar {
+    width: 30%;       
+    padding: 1.5rem 1rem;
+  }
+  .sidebar li button {
+    color: white;
+  font-size: 1.1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+  .sidebar li button:hover {
+  color: #00aaff;
+}
+
 }
 
 
@@ -118,15 +134,25 @@ li button:hover {
 @media only screen and (max-width: 480px) {
   nav {
     padding: 0.8rem 1rem;
+    flex-wrap: wrap;
   }
 
   .sidebar {
-    width: 100%;       
+    width: 30%;       
     padding: 1.5rem 1rem;
   }
 
   .sidebar li button {
-    font-size: 1rem;
+    color: white;
+  font-size: 1.1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+  .sidebar li button:hover {
+  color: #00aaff;
+}
   }
 
   .header {
@@ -134,4 +160,4 @@ li button:hover {
     
   }
 
-}
+
